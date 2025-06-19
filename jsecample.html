@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Greeting Message</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      transition: background 0.5s, color 0.5s;
+    }
+
+    .message {
+      font-size: 3em;
+      font-weight: bold;
+      padding: 20px 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .morning {
+      color: orange;
+      background-color: yellow;
+    }
+
+    .afternoon {
+      color: blue;
+      background-color: gray;
+    }
+
+    .night {
+      color: white;
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+  <div id="greeting" class="message">Hello!</div>
+
+  <script>
+    const now = new Date();
+    const hour = now.getHours();
+    const greeting = document.getElementById('greeting');
+
+    if (hour >= 5 && hour < 12) {
+      greeting.textContent = "Good Morning";
+      greeting.classList.add('morning');
+    } else if (hour >= 12 && hour < 18) {
+      greeting.textContent = "Good AfterNoon";
+      greeting.classList.add('afternoon');
+    } else {
+      greeting.textContent = "Good Night";
+      greeting.classList.add('night');
+    }
+  </script>
+</body>
+</html>

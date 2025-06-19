@@ -1,0 +1,17 @@
+#a{
+    color: aqua;
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    border: 10px solid rgb(22, 220, 134);
+}
+#b{
+    text-align: center;
+    color: aqua;
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+    border: 10px solid red;
+    margin: auto;
+    border-radius: 100px;
+}

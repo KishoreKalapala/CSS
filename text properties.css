@@ -1,0 +1,18 @@
+h1{
+    font-weight: bold;
+    line-height: 25px;
+}
+
+#b{
+    font-weight: 500;
+    font-size: 80px;
+}
+#c{
+    font-weight:900;
+}
+#d{
+    font-weight: lighter ;
+}
+#e{
+    font-weight:normal;
+}

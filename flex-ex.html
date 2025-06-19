@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .abc{
+        display: flex;
+        height: 300px;
+        width: 1000px;
+        flex-direction: row;
+        border: 2px solid black;
+        /* justify-content: center;
+        flex-wrap: wrap; */
+        
+        
+    }
+    .a{
+        height: 200px;
+        width: 200px;
+        /* align-content: center;
+        align-self: center; */
+        
+    }
+    #a{
+        color: white;
+        background-color: black;
+        /* flex-shrink: 0; */
+    }
+    #b{
+        background-color: red;
+        /* align-self: self-start; */
+    }
+    #c{
+    background-color: blueviolet;
+    flex-grow: 0;
+}
+
+    #d{
+        background-color: skyblue;
+    }
+    #e{
+        background-color: darkseagreen;
+    }
+    
+</style>
+<body>
+    <div class="abc">
+        <div class="a" id="a">a</div>
+        <div class="a" id="b">b</div>
+        <div class="a" id="c">c</div>
+        <div class="a" id="d">d</div>
+        <div class="a" id="e">e</div>
+    </div>
+    
+</body>
+</html>

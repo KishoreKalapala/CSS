@@ -1,0 +1,29 @@
+#a{
+    color: rgb(12, 16, 16);
+    text-align: left;
+}
+#b{
+    color: rgb(12, 47, 78);
+    text-align: right;
+
+}
+#c
+{
+    color: rgb(17, 132, 233);
+    text-align:center;
+}
+#d
+{
+    color: rgb(68, 144, 23);
+    text-align:start ;
+}
+#e
+{
+    color: rgb(146, 16, 172);
+    text-align: end;
+}
+#f
+{
+    color: rgb(159, 23, 23);
+    text-align:justify ;
+}

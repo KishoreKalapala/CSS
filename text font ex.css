@@ -1,0 +1,30 @@
+#a{
+    color: rgb(49, 112, 222);
+    background-color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 900;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+#b{
+    color: rgb(222, 49, 49);
+    background-color: aliceblue;
+    text-align: right;
+    text-decoration: line-through;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+#c{
+    color: rgb(193, 22, 202);
+    background-color: aliceblue;
+    text-align: left;
+    text-decoration:overline ;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-transform: lowercase;
+
+
+}
